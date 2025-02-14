@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Economia TI</title>
+    <style>
+        .infogram-container {
+            max-width: 80%; /* Define uma largura de 90% da tela */
+            max-height: 75vh; /* Define uma altura máxima de 80% da tela */
+            margin: auto;
+            padding: 20px; /* Adiciona espaço ao redor */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .infogram-embed {
+            width: 100%;
+            height: 600px; /* Mantém um tamanho grande */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="infogram-container">
+        <div class="infogram-embed" data-id="6ee43a36-95d8-4f8a-8a45-0bfaeb9b60f4" data-type="interactive" data-title="Economia TI"></div>
+    </div>
+
+    <script>
+        !function(e,n,i,s){
+            var d="InfogramEmbeds";
+            var o=e.getElementsByTagName(n)[0];
+            if(window[d]&&window[d].initialized) {
+                window[d].process&&window[d].process();
+            } else if(!e.getElementById(i)){
+                var r=e.createElement(n);
+                r.async=1;
+                r.id=i;
+                r.src=s;
+                o.parentNode.insertBefore(r,o);
+            }
+        }(document,"script","infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");
+    </script>
+
+</body>
+</html>
